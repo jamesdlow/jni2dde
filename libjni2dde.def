@@ -1,0 +1,14 @@
+; dlltool --base-file C:\TEMP/cca00598.base --output-exp jni2dde.exp --dllname jni2dde.dll --output-def libjni2dde.def --no-export-all-symbols --add-stdcall-alias --exclude-symbol=DllMainCRTStartup@12 --def C:\TEMP/cca00598.def --output-lib libjni2dde.a
+EXPORTS
+	Java_Jni2DDE_initDDE = Java_Jni2DDE_initDDE@12 @ 1 ; 
+	Java_Jni2DDE_connectDDE@16 @ 2 ; 
+	Java_Jni2DDE_disconnectDDE = Java_Jni2DDE_disconnectDDE@8 @ 3 ; 
+	Java_Jni2DDE_disconnectDDE@8 @ 4 ; 
+	Java_Jni2DDE_doDDE = Java_Jni2DDE_doDDE@24 @ 5 ; 
+	Java_Jni2DDE_doDDE@24 @ 6 ; 
+	Java_Jni2DDE_connectDDE = Java_Jni2DDE_connectDDE@16 @ 7 ; 
+	Java_Jni2DDE_initDDE@12 @ 8 ; 
+	Java_Jni2DDE_queryDDE = Java_Jni2DDE_queryDDE@12 @ 9 ; 
+	Java_Jni2DDE_queryDDE@12 @ 10 ; 
+	Java_Jni2DDE_uninitDDE = Java_Jni2DDE_uninitDDE@8 @ 11 ; 
+	Java_Jni2DDE_uninitDDE@8 @ 12 ; 
